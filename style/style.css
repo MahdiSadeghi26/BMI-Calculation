@@ -1,0 +1,11 @@
+/* general style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background: url('../img/bmi-letters-wooden-blocks-pillar-form-white-background-copy-space_132358-2386.jpg')no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
