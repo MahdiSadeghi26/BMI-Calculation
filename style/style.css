@@ -4,11 +4,31 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-    background: url('../img/bmi-letters-wooden-blocks-pillar-form-white-background-copy-space_132358-2386.jpg')no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
+body {
+  background: url("../img/bmi-letters-wooden-blocks-pillar-form-white-background-copy-space_132358-2386.jpg")
+    no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+/* contianer style */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Bmi box Seciton! */
+.bmiBox {
+  width: 800px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
