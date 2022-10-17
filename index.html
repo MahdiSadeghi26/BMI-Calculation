@@ -13,10 +13,16 @@
 <body>
     <div class="container">
         <div class="bmiBox">
-            <div class="row"></div>
-            <div class="row"></div>
-            <p class="result"></p>
-            <p class="category"></p>
+            <div class="row">
+                <input type="range"  id="weight" min="20" max="200" value="20" >
+                <span id="weight-val"></span>
+            </div>
+            <div class="row">
+                <input type="range"  id="height" min="100" max="250" value="100" >
+                <span id="height-val"></span>
+            </div>
+            <p id="result">20.0</p>
+            <p id="category">Normal Weight</p>
         </div>
     </div>
 </body>
