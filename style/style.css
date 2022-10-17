@@ -44,18 +44,19 @@ body {
   margin-bottom: 30px;
 }
 .row span{
-    font-size: 20px;
+  font-size: 20px;
 }
 input[type="range"] {
   outline: none;
   width: 80%;
   height: 6px;
+  align-self: center;
 }
 #result{
     font-size: 30px;
     font-weight: bold;
 }
 #category{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
 }
