@@ -9,6 +9,10 @@ weightValuePrint.innerHTML = weight.value;
 const height = $.querySelector("#height");
 const heightValuePrint = $.querySelector("#height-val");
 heightValuePrint.innerHTML = height.value;
+// Result and catergory
+const resultElm = $.querySelector("#result");
+const catergory=$.querySelector('#category')
+
 // functions
 function onLoadValues() {
   weight.value = 20;
@@ -21,8 +25,10 @@ function bmiCalculator() {
   heightValuePrint.innerHTML = `${height.value} cm`;
   weightValuePrint.innerHTML = `${weight.value} kg`;
   let heightCmToMeter = height.value / 100;
+  //   calculate the bmi
   let calculateBmi = weight.value / (heightCmToMeter * heightCmToMeter);
-  console.log(calculateBmi);
+  //   changing title of result elm
+  let newResultTitle= resultElm.innerHTML=Math.round(calculateBmi)
 }
 // Event Listeners
 
