@@ -23,6 +23,10 @@ body {
 }
 /* Bmi box Seciton! */
 .bmiBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   width: 800px;
   height: 300px;
   background: rgba(255, 255, 255, 0.2);
@@ -31,4 +35,27 @@ body {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* row section */
+.row {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.row span{
+    font-size: 20px;
+}
+input[type="range"] {
+  outline: none;
+  width: 80%;
+  height: 6px;
+}
+#result{
+    font-size: 30px;
+    font-weight: bold;
+}
+#category{
+    font-size: 30px;
+    font-weight: bold;
 }
